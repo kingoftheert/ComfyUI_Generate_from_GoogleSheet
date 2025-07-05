@@ -10,11 +10,11 @@ CSV_FILE = 'Promt.csv'
 # Workflow file to use as a template
 WORKFLOW_FILE = 'Workflowtest.json'
 # ComfyUI's prompt endpoint URL
-COMFYUI_URL = 'http://192.168.0.204:8188/prompt'
+COMFYUI_URL = 'http://"your-ip-address":"ComfyUIport"/prompt'
 # The column name for positive prompts in your CSV
 PROMPT_COLUMN = 'Promt(positive)'
 # The column name for character name in your CSV
-NAME_COLUMN = 'Tên'
+NAME_COLUMN = 'Name'
 
 # Helper to sanitize filename
 def sanitize_filename(name):
